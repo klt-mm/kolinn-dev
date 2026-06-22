@@ -1,0 +1,4 @@
+Contact: mailto:contact@kolinn.dev
+Expires: 2027-06-22T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://kolinn.dev/.well-known/security.txt

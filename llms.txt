@@ -1,0 +1,29 @@
+# kolinn.dev
+
+> Personal portfolio of kolinn - DevOps, SecOps, Cloud & Full Stack Engineer based in Myanmar with 4 years of experience building lean, clean architectural solutions.
+
+## Core Competencies
+- **DevOps & Infrastructure**: CI/CD pipelines, container orchestration, cloud-native infrastructure at scale.
+- **Security Operations (SecOps)**: Security-first architectures, vulnerability assessments, compliance-driven development.
+- **Cloud Architecture**: Multi-cloud deployments, serverless patterns, high availability.
+- **Software Engineering**: Clean architecture, Full Stack Development, API Design, TDD/BDD.
+- **UI/UX Design**: Human-centered interfaces, accessible interactions, pixel-perfect implementations.
+- **Automation**: Workflow automation, AI orchestration, n8n, reducing toil.
+
+## Tech Stack
+- **Languages**: JavaScript, TypeScript, Python, PHP, Go, Dart, Kotlin, C++, CSS
+- **Frameworks**: React.js, Next.js, Node.js, Django, FastAPI, Flutter, WordPress
+- **Databases**: PostgreSQL, MySQL, ChromaDB
+- **Tools**: Docker, Proxmox, Ceph, Grafana, PyTorch, n8n
+
+## Featured Projects
+- **E-Commerce Platform**: Full-stack app with real-time inventory and Stripe integration. (React.js, Node.js, PostgreSQL)
+- **AI Chatbot**: Firebase-powered Flutter chatbot with multi-model AI support. (Flutter, Firebase, Gemini API)
+- **Proxmox HA Cluster**: Data center-grade homelab with high-availability clustering. (Proxmox, Ceph, Linux)
+- **LLM Fine-tuning & RAG**: Custom LLM pipeline with domain-specific RAG implementation. (PyTorch, Python, FastAPI)
+- **AI Customer Service**: AI-orchestrated platform using n8n workflows. (n8n, Node.js, OpenAI)
+
+## Contact
+- **Email**: contact@kolinn.dev
+- **Phone**: +959 755 030 501
+- **Website**: https://kolinn.dev

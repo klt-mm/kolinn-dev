@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kolinn | DevOps & Full Stack Engineer</title>
+    <meta name="description" content="Personal portfolio of kolinn - DevOps, SecOps, Cloud & Full Stack Engineer based in Myanmar">
+    <link rel="canonical" href="https://kolinn.dev">
+    
+     <!-- Sitemap -->
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background -->
+    <div class="bg-gradient"></div>
+    <div class="bg-grid"></div>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <i data-lucide="braces" data-icon></i>
+                <span>kolinn</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">about</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#stack">stack</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="theme-toggle" id="themeToggle" role="button" tabindex="0" aria-label="Toggle theme">
+                    <div class="theme-toggle-knob">
+                        <i data-lucide="moon" data-icon></i>
+                    </div>
+                    <div class="theme-toggle-options">
+                        <i data-lucide="moon" data-icon class="dark-icon"></i>
+                        <i data-lucide="sparkles" data-icon class="auto-icon"></i>
+                        <i data-lucide="sun" data-icon class="light-icon"></i>
+                    </div>
+                </div>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-menu-links">
+            <li><a href="#about"><i data-lucide="user" data-icon></i>~/about</a></li>
+            <li><a href="#skills"><i data-lucide="brain" data-icon></i>~/skills</a></li>
+            <li><a href="#stack"><i data-lucide="layers" data-icon></i>~/stack</a></li>
+            <li><a href="#projects"><i data-lucide="folder" data-icon></i>~/projects</a></li>
+            <li><a href="#excellency"><i data-lucide="award" data-icon></i>~/excellency</a></li>
+            <li><a href="#contact"><i data-lucide="send" data-icon></i>~/contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-badge fade-in">
+                <i data-lucide="radio" data-icon></i>
+                Available for new opportunities
+            </div>
+            <h1 class="hero-title fade-in stagger-1">kolinn</h1>
+            <p class="hero-subtitle fade-in stagger-2">DevOps & Full Stack Engineer</p>
+            <p class="hero-tagline fade-in stagger-3">
+                Building <span class="highlight">lean, clean architectural solutions</span> with 
+                secured systems and scalable designs. 
+            </p>
+            <div class="hero-cta fade-in stagger-4">
+                <a href="#projects" class="btn btn-primary">
+                    <span>View Projects</span>
+                    <i data-lucide="arrow-right" data-icon></i>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <span>Get in Touch</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+        <div class="section-header fade-in">
+            <p class="section-label">
+                <i data-lucide="info" data-icon></i>
+                About
+            </p>
+            <h2 class="section-title">What I Do</h2>
+            <p class="section-description">Full spectrum engineering from infrastructure to interface.</p>
+        </div>
+        <div class="about-grid">
+            <div class="glass-card fade-in stagger-1">
+                <div class="about-card-icon"><i data-lucide="wrench" data-icon></i></div>
+                <h3 class="about-card-title">DevOps & Infrastructure</h3>
+                <p class="about-card-description">Designing and maintaining resilient CI/CD pipelines, container orchestration, and cloud-native infrastructure at scale.</p>
+            </div>
+            <div class="glass-card fade-in stagger-2">
+                <div class="about-card-icon"><i data-lucide="shield-check" data-icon></i></div>
+                <h3 class="about-card-title">Security Operations</h3>
+                <p class="about-card-description">Implementing security-first architectures, vulnerability assessments, and compliance-driven development practices.</p>
+            </div>
+            <div class="glass-card fade-in stagger-3">
+                <div class="about-card-icon"><i data-lucide="cloud" data-icon></i></div>
+                <h3 class="about-card-title">Cloud Architecture</h3>
+                <p class="about-card-description">Multi-cloud deployments, serverless patterns, and cost-optimized infrastructure designed for high availability.</p>
+            </div>
+            <div class="glass-card fade-in stagger-4">
+                <div class="about-card-icon"><i data-lucide="zap" data-icon></i></div>
+                <h3 class="about-card-title">Software Engineering</h3>
+                <p class="about-card-description">Clean, testable, and performant codebases with industry-standard patterns and modern development workflows.</p>
+            </div>
+            <div class="glass-card fade-in stagger-5">
+                <div class="about-card-icon"><i data-lucide="palette" data-icon></i></div>
+                <h3 class="about-card-title">UI/UX Design</h3>
+                <p class="about-card-description">Human-centered interfaces with fluid typography, accessible interactions, and pixel-perfect implementations.</p>
+            </div>
+            <div class="glass-card fade-in stagger-6">
+                <div class="about-card-icon"><i data-lucide="bot" data-icon></i></div>
+                <h3 class="about-card-title">Automation</h3>
+                <p class="about-card-description">Workflow automation, AI orchestration, and intelligent systems that reduce toil and maximize throughput.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+        <div class="section-header fade-in">
+            <p class="section-label">
+                <i data-lucide="brain" data-icon></i>
+                Expertise
+            </p>
+            <h2 class="section-title">Core Skills</h2>
+            <p class="section-description">Domain knowledge spanning infrastructure to application layer.</p>
+        </div>
+        <div class="skills-container">
+            <div class="glass-card skill-category fade-in stagger-1">
+                <h3 class="skill-category-title">
+                    <i data-lucide="server" data-icon></i>
+                    Infrastructure
+                </h3>
+                <div class="skill-tags">
+                    <span class="skill-tag"><i data-lucide="git-branch" data-icon></i>DevOps</span>
+                    <span class="skill-tag"><i data-lucide="shield" data-icon></i>SecOps</span>
+                    <span class="skill-tag"><i data-lucide="cloud" data-icon></i>Cloud Computing</span>
+                    <span class="skill-tag"><i data-lucide="network" data-icon></i>Infrastructure Architecture</span>
+                    <span class="skill-tag"><i data-lucide="refresh-cw" data-icon></i>CI/CD</span>
+                    <span class="skill-tag"><i data-lucide="container" data-icon></i>Containerization</span>
+                </div>
+            </div>
+            <div class="glass-card skill-category fade-in stagger-2">
+                <h3 class="skill-category-title">
+                    <i data-lucide="code-2" data-icon></i>
+                    Engineering
+                </h3>
+                <div class="skill-tags">
+                    <span class="skill-tag"><i data-lucide="code" data-icon></i>Software Engineering</span>
+                    <span class="skill-tag"><i data-lucide="layers" data-icon></i>Full Stack Development</span>
+                    <span class="skill-tag"><i data-lucide="webhook" data-icon></i>API Design</span>
+                    <span class="skill-tag"><i data-lucide="layout-grid" data-icon></i>System Design</span>
+                    <span class="skill-tag"><i data-lucide="layout-template" data-icon></i>Clean Architecture</span>
+                    <span class="skill-tag"><i data-lucide="flask-conical" data-icon></i>TDD/BDD</span>
+                </div>
+            </div>
+            <div class="glass-card skill-category fade-in stagger-3">
+                <h3 class="skill-category-title">
+                    <i data-lucide="settings" data-icon></i>
+                    Design & Ops
+                </h3>
+                <div class="skill-tags">
+                    <span class="skill-tag"><i data-lucide="pen-tool" data-icon></i>UI/UX Design</span>
+                    <span class="skill-tag"><i data-lucide="git-merge" data-icon></i>Automation</span>
+                    <span class="skill-tag"><i data-lucide="gauge" data-icon></i>Performance Optimization</span>
+                    <span class="skill-tag"><i data-lucide="expand" data-icon></i>Scalable Design</span>
+                    <span class="skill-tag"><i data-lucide="accessibility" data-icon></i>Accessibility</span>
+                    <span class="skill-tag"><i data-lucide="activity" data-icon></i>Monitoring</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section class="section" id="stack">
+        <div class="section-header fade-in">
+            <p class="section-label">
+                <i data-lucide="layout-grid" data-icon></i>
+                Tech Stack
+            </p>
+            <h2 class="section-title">Tools & Technologies</h2>
+            <p class="section-description">The languages, frameworks, and systems in my daily toolkit.</p>
+        </div>
+        
+        <div class="glass-card fade-in" style="margin-bottom: var(--space-3);">
+            <h3 class="skill-category-title" style="margin-bottom: var(--space-3);">
+                <i data-lucide="terminal" data-icon></i>
+                Programming Languages & Databases
+            </h3>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <div class="tech-item-icon"><i data-lucide="paintbrush" data-icon></i></div>
+                    <span class="tech-item-name">CSS</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-item-icon"><i data-lucide="file-code" data-icon></i></div>
+                    <span class="tech-item-name">JavaScript</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-item-icon"><i data-lucide="file-text" data-icon></i></div>
+                    <span class="tech-item-name">TypeScript</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-item-icon"><i data-lucide="code" data-icon></i></div>
+                    <span class="tech-item-name">PHP</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-item-icon"><i data-lucide="terminal" data-icon></i></div>
+                    <span class="tech-item-name">Python</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-item-icon"><i data-lucide="cpu" data-icon></i></div>
+                    <span class="tech-item-name">C++</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-item-icon"><i data-lucide="target" data-icon></i></div>
+                    <span class="tech-item-name">Dart</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-item-icon"><i data-lucide="smartphone" data-icon></i></div>
+                    <span class="tech-item-name">Kotlin</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-item-icon"><i data-lucide="rocket" data-icon></i></div>
+                    <span class="tech-item-name">Go</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-item-icon"><i data-lucide="database" data-icon></i></div>
+                    <span class="tech-item-name">MySQL</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-item-icon"><i data-lucide="database" data-icon></i></div>
+                    <span class="tech-item-name">PostgreSQL</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="glass-card fade-in" style="margin-bottom: var(--space-3);">
+            <h3 class="skill-category-title" style="margin-bottom: var(--space-3);">
+                <i data-lucide="package" data-icon></i>
+                Frameworks & Platforms
+            </h3>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <div class="tech-item-icon"><i data-lucide="star" data-icon></i></div>
+                    <span class="tech-item-name">Astra</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-item-icon"><i data-lucide="atom" data-icon></i></div>
+                    <span class="tech-item-name">React.js</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-item-icon"><i data-lucide="triangle" data-icon></i></div>
+                    <span class="tech-item-name">Next.js</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-item-icon"><i data-lucide="hexagon" data-icon></i></div>
+                    <span class="tech-item-name">Node.js</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-item-icon"><i data-lucide="flame" data-icon></i></div>
+                    <span class="tech-item-name">Django</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-item-icon"><i data-lucide="flame" data-icon></i></div>
+                    <span class="tech-item-name">PyTorch</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-item-icon"><i data-lucide="zap" data-icon></i></div>
+                    <span class="tech-item-name">FastAPI</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-item-icon"><i data-lucide="globe" data-icon></i></div>
+                    <span class="tech-item-name">WordPress</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-item-icon"><i data-lucide="smartphone" data-icon></i></div>
+                    <span class="tech-item-name">Flutter</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="glass-card fade-in">
+            <h3 class="skill-category-title" style="margin-bottom: var(--space-3);">
+                <i data-lucide="hard-drive" data-icon></i>
+                Systems & Fundamentals
+            </h3>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <div class="tech-item-icon"><i data-lucide="database" data-icon></i></div>
+                    <span class="tech-item-name">Database</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-item-icon"><i data-lucide="hash" data-icon></i></div>
+                    <span class="tech-item-name">Regex</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-item-icon"><i data-lucide="terminal-square" data-icon></i></div>
+                    <span class="tech-item-name">Linux</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-item-icon"><i data-lucide="network" data-icon></i></div>
+                    <span class="tech-item-name">Networking</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+        <div class="section-header fade-in">
+            <p class="section-label">
+                <i data-lucide="briefcase" data-icon></i>
+                Portfolio
+            </p>
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-description">Selected work showcasing full-stack engineering capabilities.</p>
+        </div>
+        <div class="projects-grid">
+            <div class="glass-card project-card fade-in stagger-1">
+                <div class="project-card-header">
+                    <div class="project-card-icon"><i data-lucide="shopping-cart" data-icon></i></div>
+                    <div class="project-card-links">
+                        <a href="#" aria-label="GitHub"><i data-lucide="github" data-icon></i></a>
+                        <a href="#" aria-label="Live Demo"><i data-lucide="external-link" data-icon></i></a>
+                    </div>
+                </div>
+                <h3 class="project-card-title">E-Commerce Platform</h3>
+                <p class="project-card-description">Full-stack e-commerce application with real-time inventory management, payment integration, and admin dashboard.</p>
+                <div class="project-card-stack">
+                    <span><i data-lucide="code-2" data-icon></i>React.js</span>
+                    <span><i data-lucide="hexagon" data-icon></i>Node.js</span>
+                    <span><i data-lucide="database" data-icon></i>PostgreSQL</span>
+                    <span><i data-lucide="credit-card" data-icon></i>Stripe</span>
+                </div>
+            </div>
+
+            <div class="glass-card project-card fade-in stagger-2">
+                <div class="project-card-header">
+                    <div class="project-card-icon"><i data-lucide="store" data-icon></i></div>
+                    <div class="project-card-links">
+                        <a href="#" aria-label="Live Site"><i data-lucide="external-link" data-icon></i></a>
+                    </div>
+                </div>
+                <h3 class="project-card-title">Electronics Store</h3>
+                <p class="project-card-description">Custom WooCommerce store with dynamic product configurators, automated order fulfillment workflows, and optimized checkout.</p>
+                <div class="project-card-stack">
+                    <span><i data-lucide="globe" data-icon></i>WordPress</span>
+                    <span><i data-lucide="shopping-bag" data-icon></i>WooCommerce</span>
+                    <span><i data-lucide="code" data-icon></i>PHP</span>
+                    <span><i data-lucide="star" data-icon></i>Astra</span>
+                </div>
+            </div>
+
+            <div class="glass-card project-card fade-in stagger-3">
+                <div class="project-card-header">
+                    <div class="project-card-icon"><i data-lucide="message-square" data-icon></i></div>
+                    <div class="project-card-links">
+                        <a href="#" aria-label="GitHub"><i data-lucide="github" data-icon></i></a>
+                    </div>
+                </div>
+                <h3 class="project-card-title">AI Chatbot</h3>
+                <p class="project-card-description">Firebase-powered Flutter chatbot with multi-model AI support, context-aware conversations, and real-time streaming responses.</p>
+                <div class="project-card-stack">
+                    <span><i data-lucide="smartphone" data-icon></i>Flutter</span>
+                    <span><i data-lucide="flame" data-icon></i>Firebase</span>
+                    <span><i data-lucide="target" data-icon></i>Dart</span>
+                    <span><i data-lucide="sparkles" data-icon></i>Gemini API</span>
+                </div>
+            </div>
+            <div class="glass-card project-card fade-in stagger-4">
+                <div class="project-card-header">
+                    <div class="project-card-icon"><i data-lucide="server" data-icon></i></div>
+                    <div class="project-card-links">
+                        <a href="#" aria-label="Documentation"><i data-lucide="book-open" data-icon></i></a>
+                    </div>
+                </div>
+                <h3 class="project-card-title">Proxmox HA Cluster</h3>
+                <p class="project-card-description">Data center-grade homelab with Proxmox high-availability clustering, Ceph storage, automated failover, and monitoring.</p>
+                <div class="project-card-stack">
+                    <span><i data-lucide="server" data-icon></i>Proxmox</span>
+                    <span><i data-lucide="hard-drive" data-icon></i>Ceph</span>
+                    <span><i data-lucide="terminal-square" data-icon></i>Linux</span>
+                    <span><i data-lucide="activity" data-icon></i>Grafana</span>
+                </div>
+            </div>
+
+            <div class="glass-card project-card fade-in stagger-5">
+                <div class="project-card-header">
+                    <div class="project-card-icon"><i data-lucide="brain" data-icon></i></div>
+                    <div class="project-card-links">
+                        <a href="#" aria-label="GitHub"><i data-lucide="github" data-icon></i></a>
+                    </div>
+                </div>
+                <h3 class="project-card-title">LLM Fine-tuning & RAG</h3>
+                <p class="project-card-description">Custom LLM fine-tuning pipeline with domain-specific RAG implementation, vector database integration, and evaluation frameworks.</p>
+                <div class="project-card-stack">
+                    <span><i data-lucide="flame" data-icon></i>PyTorch</span>
+                    <span><i data-lucide="terminal" data-icon></i>Python</span>
+                    <span><i data-lucide="zap" data-icon></i>FastAPI</span>
+                    <span><i data-lucide="database" data-icon></i>ChromaDB</span>
+                </div>
+            </div>
+
+            <div class="glass-card project-card fade-in stagger-6">
+                <div class="project-card-header">
+                    <div class="project-card-icon"><i data-lucide="git-merge" data-icon></i></div>
+                    <div class="project-card-links">
+                        <a href="#" aria-label="Demo"><i data-lucide="play" data-icon></i></a>
+                    </div>
+                </div>
+                <h3 class="project-card-title">AI Customer Service</h3>
+                <p class="project-card-description">AI-orchestrated customer service platform using n8n workflows, multi-channel routing, sentiment analysis, and human escalation paths.</p>
+                <div class="project-card-stack">
+                    <span><i data-lucide="git-merge" data-icon></i>n8n</span>
+                    <span><i data-lucide="hexagon" data-icon></i>Node.js</span>
+                    <span><i data-lucide="sparkles" data-icon></i>OpenAI</span>
+                    <span><i data-lucide="webhook" data-icon></i>Webhooks</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Excellency -->
+    <section class="section" id="excellency">
+        <div class="section-header fade-in">
+            <p class="section-label">
+                <i data-lucide="gem" data-icon></i>
+                Principles
+            </p>
+            <h2 class="section-title">Engineering Excellence</h2>
+            <p class="section-description">Core principles that guide every line of code and system design.</p>
+        </div>
+        <div class="excellency-list">
+            <div class="glass-card excellency-item fade-in stagger-1">
+                <i data-lucide="ruler" data-icon></i><span class="text">Lean & Clean Architecture</span>
+            </div>
+            <div class="glass-card excellency-item fade-in stagger-2">
+                <i data-lucide="lock-keyhole" data-icon></i><span class="text">Security-First Systems</span>
+            </div>
+            <div class="glass-card excellency-item fade-in stagger-3">
+                <i data-lucide="trending-up" data-icon></i><span class="text">Scalable Design Patterns</span>
+            </div>
+            <div class="glass-card excellency-item fade-in stagger-4">
+                <i data-lucide="sparkles" data-icon></i><span class="text">Pixel-Perfect UI Craft</span>
+            </div>
+            <div class="glass-card excellency-item fade-in stagger-5">
+                <i data-lucide="file-check-2" data-icon></i><span class="text">Industry Standards Compliant</span>
+            </div>
+            <div class="glass-card excellency-item fade-in stagger-6">
+                <i data-lucide="target" data-icon></i><span class="text">Guidelines & Best Practices</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+        <div class="section-header fade-in">
+            <p class="section-label">
+                <i data-lucide="mail" data-icon></i>
+                Contact
+            </p>
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="section-description">Open for collaborations, consulting, and interesting conversations.</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info fade-in stagger-1">
+                <div class="glass-card contact-item">
+                    <div class="contact-item-icon"><i data-lucide="mail" data-icon></i></div>
+                    <div class="contact-item-content">
+                        <span class="contact-item-label">Email</span>
+                        <a href="mailto:contact@kolinn.dev" class="contact-item-value">contact@kolinn.dev</a>
+                    </div>
+                </div>
+                <div class="glass-card contact-item">
+                    <div class="contact-item-icon"><i data-lucide="phone" data-icon></i></div>
+                    <div class="contact-item-content">
+                        <span class="contact-item-label">Phone</span>
+                        <a href="tel:+959755030501" class="contact-item-value">+959 755 030 501</a>
+                    </div>
+                </div>
+                <div class="glass-card contact-item">
+                    <div class="contact-item-icon"><i data-lucide="globe" data-icon></i></div>
+                    <div class="contact-item-content">
+                        <span class="contact-item-label">Domain</span>
+                        <span class="contact-item-value">kolinn.dev</span>
+                    </div>
+                </div>
+                <div class="glass-card contact-item">
+                    <div class="contact-item-icon"><i data-lucide="briefcase" data-icon></i></div>
+                    <div class="contact-item-content">
+                        <span class="contact-item-label">Experience</span>
+                        <span class="contact-item-value">4+ Years</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fade-in stagger-2">
+                <form class="contact-form glass-card" style="padding: var(--space-4);">
+                    <div class="form-group">
+                        <label class="form-label" for="name">
+                            <i data-lucide="user" data-icon></i>
+                            // name
+                        </label>
+                        <input type="text" id="name" class="form-input" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="email">
+                            <i data-lucide="at-sign" data-icon></i>
+                            // email
+                        </label>
+                        <input type="email" id="email" class="form-input" placeholder="your@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="message">
+                            <i data-lucide="message-square" data-icon></i>
+                            // message
+                        </label>
+                        <textarea id="message" class="form-textarea" placeholder="Tell me about your project..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center; margin-top: var(--space-2);">
+                        <i data-lucide="send" data-icon></i>
+                        <span>Send Message</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-text">
+                &copy; 2026 <span class="highlight">kolinn.dev</span> — Built with 
+                <i data-lucide="heart" data-icon></i>
+                & clean code.
+            </p>
+            <div class="footer-links">
+                <a href="mailto:contact@kolinn.dev">
+                    <i data-lucide="mail" data-icon></i>
+                    Email
+                </a>
+                <a href="#hero">
+                    <i data-lucide="arrow-up" data-icon></i>
+                    Back to Top
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lucide Icons Script -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+    
+    <!-- Main Application Script -->
+    <script src="script.js" defer></script>
+</body>
+</html>
